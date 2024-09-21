@@ -21,3 +21,39 @@ uint16 RECOMMENDED_BROADCASTER_TIMEOUT_MS = 2200    # Milliseconds
 # If this message is the first one, this field must be zero.
 #
 truncated uint56 previous_transmission_timestamp_usec # Microseconds
+float32 mc_roll_sp
+float32 mc_pitch_sp
+float32 mc_yaw_sp
+float32 mc_yawrate_sp
+float32[4] mc_qd
+uint16  mc_reset_integral
+uint16  mc_fw_control_yaw_wheel
+
+float32 fw_roll_sp
+float32 fw_yaw_sp
+float32 fw_altitude
+float32 fw_altitude_sp
+float32 fw_altitude_rate_sp
+float32 fw_altitude_rate_sp_direct
+float32 fw_tas_sp
+float32 fw_preserve1
+float32 fw_preserve2
+float32 fw_preserve3
+
+float32 q1
+
+int16 timesync_is_fixed_wing_requested
+int16 timesync_is_transition_p1_to_p2
+int16 timesync_exit_backtransition
+float32 yawrates_sp_from_rates_ctrl
+
+float32 yaw_unlock_sync_1
+float32 yaw_unlock_sync_2
+float32 yaw_unlock_sync_3
+float32 yaw_unlock_sync_4
+float32 yaw_unlock_sync_5
+float32 yaw_unlock_sync_6
+float32 yaw_unlock_sync_7
+float32 yaw_unlock_sync_8
+float32 yaw_unlock_sync_9
+float32 yaw_unlock_sync_10
